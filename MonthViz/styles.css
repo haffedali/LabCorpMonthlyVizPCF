@@ -1,0 +1,41 @@
+.graph-control-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.option-set-container {
+  padding: 3vw;
+  height: 8vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "left right";
+}
+
+.month-option-set {
+  width: 25vw;
+  grid-area: left;
+}
+
+.test-option-set {
+  grid-area: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.graph-container {
+  justify-content: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 50vh;
+}
+
+.tag-container {
+  height: 3vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.tag-option-set {
+  width: 25vw;
+}
