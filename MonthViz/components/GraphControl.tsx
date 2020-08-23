@@ -50,7 +50,7 @@ export const GraphControl: React.FC<GraphControlInterface> = (props) => {
     setActiveMonth(monthChoice)
   }
   
-  const colors = ["red", "blue", "green", "purple", "orange"];
+  const colors = ["black","red", "blue", "green", "purple", "orange"];
   let count = 0;
 
   return (
